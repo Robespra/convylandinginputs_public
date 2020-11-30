@@ -211,7 +211,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #fff;
 	font-size: 82px;
 	font-weight: 700;
-	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 10px;
 }
@@ -231,6 +230,90 @@ header .intro-text {
 	padding-top: 130px;
 	padding-bottom: 200px;
 	text-align: left;
+}
+
+/* Intro Section */
+#intro, #faq {
+	padding: 100px 0;
+}
+#intro i.fa {
+	font-size: 38px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	padding: 30px 0;
+	border-radius: 50%;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+
+#intro h2, h3 {
+	color:#fff;
+}
+
+#intro p {
+	text-align:left;
+	color: #999;
+}
+
+#intro ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+	margin:1% 0;
+}
+
+#intro ol li {
+	list-style: decimal;
+list-style-position: inside;
+margin:1% 0;
+}
+#intro table {
+	border: 1px solid #fff;
+    width: 100%;
+	text-align: center;
+	color:#fff;
+	margin :7% 0;
+}
+
+#intro table tr {
+	border: 1px solid #fff;
+	padding : 5%;
+	line-height:50px;
+}
+
+#intro table button {
+	display: block;
+    margin: 2% auto;
+}
+
+#intro table tr.hero {
+	line-height:200px;
+}
+
+#intro table p {
+	color:#fff;
+	text-align:center;
+}
+
+.mt-10 {
+	margin-top:6%;
+}
+.mt-5 {
+	margin-top:3%;
+}
+#cta {
+	padding: 100px 0;
+}
+
+#cta2, #remember, #team {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
+
+#remember h2, h3, #cta2 h2, h3, #team h2, h3 {
+	color:rgb(105, 105, 105);
 }
 /* Features Section */
 #features {
@@ -598,4 +681,105 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+}
+
+
+.convy_pricing {
+	position: relative;
+}
+
+.small {
+	font-size: 50%;
+}
+.pricing-table {
+  position: relative;
+  background-color: #fefefe;
+  border: none;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  list-style-type: none;
+  border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+
+.pricing-table img {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+li.checked{
+  background-image: url('../images/check.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px; /* Adjust according to image size to push text across. */
+}
+.button-center{
+  text-align: center;
+}
+.chosethatone {
+  /* border: solid 3px #0234ac; */
+}
+
+.pricing-table li {
+  border-bottom: dotted 1px #36476c;
+  padding: 0.875rem 1.225rem;
+}
+
+/* .pricing-table li:last-child {
+  border-bottom: 0;
+} */
+
+.bottom_cta {
+      position: absolute;
+    bottom: 1%;
+    width: 100%;
+}
+.specific {
+  background-color:#36476c;
+}
+.pricing-table .title {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight:500;
+  border-bottom: 0;
+  text-align:center;
+}
+.highlight {
+  color:#dfb18c;
+}
+
+.popular {
+	border: 5px solid #dfb18c;
+	font-size:120%;
+}
+
+.pricing-table .price {
+  font-family: 'Red Hat Display', sans-serif;
+  /* background-color: #e6e6e6; */
+  font-size: 3rem;
+  border-bottom: 0;
+  text-align:center;
+}
+
+.raye {text-decoration: line-through;
+text-align:right;}
+
+.reduction {
+  font-size: 1rem;
+}
+.saving {
+  text-align: left;
+  color: #dfb18c;
+
+  font-weight: bold;
+}
+.pricing-table .description {
+  color: #36476c;
+  font-size: 80%;
+  padding: 0.875rem 0.875rem 0.875rem 2.5rem;
+}
+
+.pricing-table :last-child {
+  margin-bottom: 0;
 }
